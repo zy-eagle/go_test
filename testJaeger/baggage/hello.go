@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	Jaeger "myProject/testJaeger"
 	"net/http"
 	"net/url"
 	"os"
@@ -11,6 +10,7 @@ import (
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"
 	xhttp "github.com/yurishkuro/opentracing-tutorial/go/lib/http"
+	Jaeger "go-test/testJaeger"
 )
 
 func main() {
