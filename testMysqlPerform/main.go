@@ -12,7 +12,7 @@ func main() {
 
 	sTime := time.Now()
 
-	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s", "root", "admin123", "10.23.14.50", 5000, "test")
+	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s", "root", "admin123", "192.168.231.129", 5000, "test")
 	conn, err := sql.Open("mysql", dsn)
 	if err != nil {
 		panic(err)

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"myProject/testJaeger/tracing"
+	"go-test/testJaeger/tracing"
 )
 
 func main() {

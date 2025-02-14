@@ -3,8 +3,8 @@ package main
 import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
+	Jaeger "go-test/testJaeger"
 	"log"
-	Jaeger "myProject/testJaeger"
 	"net/http"
 )
 
