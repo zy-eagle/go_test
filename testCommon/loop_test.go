@@ -23,3 +23,7 @@ loop:
 	fmt.Println("===================3")
 
 }
+
+func TestAnd(t *testing.T) {
+	fmt.Println(0100 & 0001)
+}
